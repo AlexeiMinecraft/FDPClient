@@ -19,8 +19,8 @@ class IntaveHopSpeed : SpeedMode("IntaveHop") {
             }
             
              if (mc.thePlayer.motionY > 0.009) {
-                mc.thePlayer.motionX *= 1.0013
-                mc.thePlayer.motionZ *= 1.0013
+                mc.thePlayer.motionX *= 1.0025
+                mc.thePlayer.motionZ *= 1.0030
                 mc.timer.timerSpeed = 1.05f
              }
         }
